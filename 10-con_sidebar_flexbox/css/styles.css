@@ -49,3 +49,17 @@ p {
 
 
 /** CODIGO AQUI **/
+
+@media (min-width: 768px){
+    .con-as {
+        display: flex;
+        gap: 3rem;
+    }
+    aside {
+        flex: 1;
+        /* order: -1; */
+    }
+    article {
+        flex: 3;
+    }
+}
