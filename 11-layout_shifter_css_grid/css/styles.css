@@ -55,7 +55,7 @@ p {
         grid-template-areas: "contenido"
                              "inferior";
                             }
-                            .side {
+    .side {
         grid-area: inferior;
     }
     .principal{
